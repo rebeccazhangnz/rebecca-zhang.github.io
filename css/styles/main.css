@@ -1,9 +1,9 @@
+
+/**{
+    border: 1px solid red !important;
+}*/
+
 @media only screen and (max-width:500px) {p{display:none;}}
-p{
-    font-family: 'Lato', sans-serif;
-    width:500px;
-    height:100px;
-    overflow:auto;}
 
 *{
     -webkit-box-sizing: border-box;
@@ -11,6 +11,29 @@ p{
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.index-heading
+{
+    margin-top: 20px;
+    font-size: 28pt;
+    font-family: 'Kumar One Outline', cursive;
+}
+.navigation-bars
+{margin-top:15px;
+margin-bottom: 15px;}
+
+.tech-blogs
+{margin-top:60px;
+margin-bottom: 60px;}
+
+.cultural-blogs
+{margin-top:15px;
+margin-bottom: 15px;}
+
+.index-image
+{margin-top:60px;
+ margin-bottom: 60px;}
+
 
 .row{width:100%;
     display: flex; flex-wrap: wrap;}
