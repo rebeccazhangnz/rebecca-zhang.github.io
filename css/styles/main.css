@@ -3,6 +3,9 @@
     border: 1px solid red !important;
 }*/
 
+
+*{background: beige}
+
 @media only screen and (max-width:500px) {p{display:none;}}
 
 *{
@@ -14,24 +17,30 @@
 
 .index-heading
 {
+    background: orangered;
+    padding-top: 20px;
     margin-top: 20px;
     font-size: 28pt;
     font-family: 'Kumar One Outline', cursive;
 }
 .navigation-bars
-{margin-top:15px;
+{background: beige;
+    margin-top:15px;
 margin-bottom: 15px;}
 
 .tech-blogs
-{margin-top:60px;
+{
+    margin-top:60px;
 margin-bottom: 60px;}
 
 .cultural-blogs
-{margin-top:15px;
-margin-bottom: 15px;}
+{margin-top:   60px;
+margin-bottom: 60px;}
 
 .index-image
-{margin-top:60px;
+{
+    background: orangered;
+    margin-top:60px;
  margin-bottom: 60px;}
 
 
