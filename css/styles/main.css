@@ -3,6 +3,9 @@
     border: 1px solid red !important;
 }*/
 
+
+*{background: rgb(226, 217, 134)}
+
 @media only screen and (max-width:500px) {p{display:none;}}
 
 *{
@@ -14,25 +17,45 @@
 
 .index-heading
 {
+    background: orangered;
+    padding-top: 20px;
     margin-top: 20px;
     font-size: 28pt;
     font-family: 'Kumar One Outline', cursive;
 }
 .navigation-bars
-{margin-top:15px;
+{background: beige;
+    text-decoration: underline;
+    margin-top:15px;
 margin-bottom: 15px;}
 
+.navigation-bars-about-me
+{
+    background: rgb(165, 74, 32);
+    text-decoration: underline;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
 .tech-blogs
-{margin-top:60px;
+{
+    margin-top:60px;
 margin-bottom: 60px;}
 
 .cultural-blogs
-{margin-top:15px;
-margin-bottom: 15px;}
+{margin-top:   60px;
+margin-bottom: 60px;}
 
 .index-image
-{margin-top:60px;
- margin-bottom: 60px;}
+{
+    background: orangered;
+    margin-top:60px;
+ margin-bottom: 60px;
+}
 
 
 .row{width:100%;
@@ -50,3 +73,47 @@ margin-bottom: 15px;}
 .col-10{width: 83.33%}
 .col-11{width: 91.66%}
 .col-12{width: 100%}
+
+.about-me{
+    color: rgb(165, 74, 32);
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+
+margin-top: 100px}
+
+#inline-blog-title
+{
+    color: grey;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+
+.inline-blog-body
+{
+    color: darkslategrey;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.css-codes
+{
+    color: red;
+    font-weight: 400;
+}
+
+.inline-terms
+{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.inline-blog-img
+{
+    margin-top: 30px;
+}
+
+.sprint2-tech-blog-page
+{
+    margin-bottom:  400px;
+}

@@ -12,7 +12,7 @@
         
   </head>
   
-  <body>
+  <body class = sprint2-tech-blog-page>
     <div class="container-fluid">
       <div class="row index-heading">
         <div class="col-12 text-center">
@@ -25,11 +25,73 @@
             <div class="col-3"><a href="../blog/cultural-blogs.html">Cultural Blog</a></div>
             <div class="col-3"><a href="../blog/about-me.html">About Me</a></div>
       </div>
-      <div class="row-fluid">
-            <div class="col-12 index-image">
-              <img class="mx-auto d-block img-responsive" src="../images/landing-img.jpg" alt="index heading image!">
-            </div>
+
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8 text-center">
+        <H2 id="inline-blog-title"> Display Inline vs. Inline Blocks in CSS</H2>
+
+        <div class="inline-blog-body text-left"> HTML elements are catergorized as either block-level elements or inline elements. 
+          Inline elements do not start on a new line, they displays on the same line to the other contents.
+          While block elements always starts on a new line and takes up the full width available on that section.
+          This blog will show you how the <Span class="css-codes">display: Inline</Span> and <Span class="css-codes"> display: Inline-blocks</Span>
+          properties in CSS changesthe layout of those elements.
+        </div> 
+           
+        <div class="inline-blog-body text-left"><P class="inline-terms">Inline Elements:</P> Inline elements do not take up all the space
+           of its container. It usually sits within other elements and only takes as much space as it’s content needs. And thus, you can have 
+           multiple Inline elements in the same line. However, you can not have a width and height set for an inline element. Examples of inline 
+           elements are &ltspan&gt &ltem&gt &ltimg&gt :
+        </div>
+      
+        <div class="inline-blog-body"> 
+            <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/html-inline-element.jpg" alt="html-inline-element-image!">
+            <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/inline-element.jpg" alt="inline-element-image!">
+        </div>
+     
+
+        <div class="inline-blog-body text-left"><P class="inline-terms">Block Elements:</P> The behavior of Block level element is that it takes
+           up all the space of its rectangle anyway. Which means, it doesn’t let other elements use the empty space of its own rectangle, by
+           default it takes the full width of the page. The block element forces a line break after itself. Examples of block elements
+           are: &ltdiv&gt &ltp&gt &ltfig&gt:
+        </div>
+
+        <div class="inline-blog-body"> 
+            <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/html-block-element.jpg" alt="html-block-element-image!">
+            <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/box-element.jpg" alt="block-element-image!">
+        </div>
+
+        <div class="inline-blog-body text-left"><P class="inline-terms">Display: Properties</P> The display property specifies the display
+           behaviour of the elements. By default, the display behaviour is defined by the tags of the content, as states above, there are inline
+           elements and block elements. The display property can override the display behaviour regardless to the element type, here are some
+           examples:
+       </div>
+
+       <div class="inline-blog-body"> 
+          <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/t-display-inline.jpg" alt="html&css-inline-element-image!">
+          <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/display-inline.jpg" alt="block-element-image!">
       </div>
+      <div class="inline-blog-body text-left">In the CSS file I have added the display: inline property, we can see that the the block element 
+        &ltdiv&gt has now displayed like an inline element. There is no line breaks between each contents and it only takes the space that is needed
+           for the content itself. The display: inline property overrides the default setting and redefines the display behaviour of the elements.
+    </div>
+
+     <div class="inline-blog-body"> 
+        <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/t-display-inline-block.jpg" alt="html&css-inline-block-element-image!">
+        <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/display-inline-block.jpg" alt="inline-block-element-image!">
+     </div>
+
+     <div class="inline-blog-body text-left">In this case I have chagnged the CSS file to<Span class="css-codes"> display: inline-block</Span>,
+      we can see that the elements are still inline, but they are showing like a box. The basic difference between the two properties is that,
+      <Span class="css-codes"> display: inline</Span> completely ignores the width and hight set, <Span class="css-codes"> display: inline-block</Span>
+       does not ignore height and width and developer can set width and height for each elements.
+    </div>
+
+      </div>
+      <div class="col-2"></div>
+            
+    </div>
+
      
   
     
