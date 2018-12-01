@@ -3,9 +3,16 @@
     border: 1px solid red !important;
 }*/
 
+<<<<<<< HEAD
 
 *{background: rgb(226, 217, 134)}
 
+||||||| merged common ancestors
+=======
+
+*{background: beige}
+
+>>>>>>> c7c767d1dcd0f8af68d6cc5c9e3ca7c8290b3e04
 @media only screen and (max-width:500px) {p{display:none;}}
 
 *{
@@ -24,9 +31,16 @@
     font-family: 'Kumar One Outline', cursive;
 }
 .navigation-bars
+<<<<<<< HEAD
 {background: beige;
     text-decoration: underline;
     margin-top:15px;
+||||||| merged common ancestors
+{margin-top:15px;
+=======
+{background: beige;
+    margin-top:15px;
+>>>>>>> c7c767d1dcd0f8af68d6cc5c9e3ca7c8290b3e04
 margin-bottom: 15px;}
 
 .navigation-bars-about-me
@@ -51,11 +65,21 @@ margin-bottom: 60px;}
 margin-bottom: 60px;}
 
 .index-image
+<<<<<<< HEAD
 {
     background: orangered;
     margin-top:60px;
  margin-bottom: 60px;
 }
+||||||| merged common ancestors
+{margin-top:60px;
+ margin-bottom: 60px;}
+=======
+{
+    background: orangered;
+    margin-top:60px;
+ margin-bottom: 60px;}
+>>>>>>> c7c767d1dcd0f8af68d6cc5c9e3ca7c8290b3e04
 
 
 .row{width:100%;
