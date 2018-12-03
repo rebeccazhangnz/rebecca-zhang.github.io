@@ -1,8 +1,9 @@
 #cultrual-blog-title
 {
     color: orangered;
+    text-decoration: underline;
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 
@@ -15,7 +16,7 @@
 
 .cultrual-blog-subtitle
 {
-    color: darkslategrey;
+    color: orangered;
     font-size: 25px;
     font-weight: 700;
     text-decoration: underline;
@@ -25,22 +26,23 @@
 
 .cultrual-blog-questions
 {
-    color: darkslategrey;
+    color: rgb(185, 124, 96);
     font-size: 20px;
     font-weight: 600;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .cultrual-blog-paragraphs
 {
-    color: darkslategrey;
+    color:  rgb(96, 185, 185);
     font-size: 20px;
     font-weight: 300;
+    margin-top:30px;
 }
 
 .words-from-friend
 {
-    color: darkslategrey;
+    color: rgb(155, 179, 179);
     font-size: 20px;
     font-weight: 600;
 }
