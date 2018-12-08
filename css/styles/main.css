@@ -101,7 +101,7 @@ margin-bottom: 60px;}
 .inline-blog-body
 {
     color: rgb(96, 185, 185);
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 60px;
 }
 
@@ -126,3 +126,41 @@ margin-bottom: 60px;}
 {
     margin-bottom:  400px;
 }
+
+.blog-question{
+    color: rgb(76, 0, 255);
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size:25px;
+}
+
+
+.control-flow-table{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.control-flow-table,.control-flow-th,.control-flow-td
+{
+    color: white;
+    border: 2px solid white;
+    border-collapse:boarder-collapse;
+}
+
+.control-flow-function
+{
+    color: orangered;
+    margin-top:1px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.control-flow-function-wash  {color:green; font-size: 16px;font-weight: 400;}
+.control-flow-function-rinse {color:blueviolet; font-size: 16px;font-weight: 400;}
+.control-flow-function-spin  {color:blue; font-size: 16px;font-weight: 400;}
+
+

@@ -20,6 +20,7 @@
     font-size: 25px;
     font-weight: 700;
     text-decoration: underline;
+    margin-bottom: 40px;
 
 
 }
@@ -30,14 +31,17 @@
     font-size: 25px;
     font-weight: 600;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .cultrual-blog-paragraphs
 {
     color:  rgb(96, 185, 185);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 30px;
+   
+    
 }
 
 .words-from-friend

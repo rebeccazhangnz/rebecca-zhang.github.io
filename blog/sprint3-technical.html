@@ -12,7 +12,7 @@
         
   </head>
   
-  <body>
+  <body class = sprint2-tech-blog-page>
     <div class="container-fluid">
       <div class="row index-heading">
         <div class="col-12 text-center">
@@ -25,11 +25,133 @@
             <div class="col-3"><a href="../blog/cultural-blogs.html">Cultural Blog</a></div>
             <div class="col-3"><a href="../blog/about-me.html">About Me</a></div>
       </div>
-      <div class="row-fluid">
-            <div class="col-12 index-image">
-              <img class="mx-auto d-block img-fluid" src="../images/landing-img.jpg" alt="index heading image!">
-            </div>
+
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8 text-center">
+        <H1 id="inline-blog-title"> HTML, CSS, JavaScript and DOM</H1>
+
+        <div class = "blog-question text-left">* An analogy to describe the differences between HTML and CSS</div>
+
+        <div class="inline-blog-body text-left"> HTML  is used to design the structure of websites, it contains various <tags> that hold 
+          contents and section up the pages. Each of the <tags> has different values and attributes that can be defined by the CSS
+             (Cascading Style Sheet). The HTML contents are raw datas, they look plain and boring by default, Using CSS can provide the 
+             appearnce and styling to the HTML contents.  Here is an example of "GitHub Guide” website with and without CSS styling:
+        </div> 
+        <div class="inline-blog-body"> 
+            <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/GitHub-css.png" alt="Github-page-with-CSS-styling!">
+            <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/GitHub-HTML.png" alt="Github-page-without-CSS!">
+        </div>
+        <div class="inline-blog-body text-left">If you have ever made a cake or seen the process of making a cake, you can think of HTML 
+          is the sponge cake base, you can use HTML to decide how many layers the cake is going to be and CSS is what gives the decorations
+           and flavours of the cake. 
+        </div>
+      
+        <div class = "blog-question text-left">*Explain control flow and loops using an example process from everyday life, for example 
+          'waking up' or 'brushing your teeth'.</div>
+
+          <table class="control-flow-table text-center">
+            <tr>
+              <th class="control-flow-th">Functions</th>
+              <th>Conditions</th>
+            </tr>
+            <tr>
+              <td class="control-flow-td">washCycle</td>
+              <td class="control-flow-td">Time starts at 0mins and  Time &lt 30mins</td>
+            </tr>
+            <tr>
+              <td class="control-flow-td">rinseCycle</td>
+              <td class="control-flow-td">Time > =30mins and &lt 50mins</td>
+            </tr>
+            <tr>
+              <td class="control-flow-td">spinCycle</td>
+              <td class="control-flow-td">Time > =50mins and &lt 60mins</td>
+            </tr>
+          </table>
+
+        <div class="inline-blog-body text-left">
+          <P class = "control-flow-function">For (int time = 0; time &lt 60; time ++) { </P>
+            <p class = "control-flow-function">If (time &lt 30) { </p>
+            <p class = "control-flow-function-wash">washCycle; </p>
+            <p class = "control-flow-function"> } else if{ </p>
+            <p class = "control-flow-function">(time >= 30 && time &lt 50){ </p>
+            <p class = "control-flow-function-rinse">rinseCycle; </p>
+            <p class = "control-flow-function">}else{ </p>
+            <p class = "control-flow-function-spin">spinCycle; </p>
+            <p class = "control-flow-function">} </p>
+        </div>
+
+
+        <div class="inline-blog-body text-left">The above function will count from 0 to 60 minutes, each count is one loop. During the loop, 
+          it will check if it is the time to move to the next cycle. If the current count is under 30 minutes, it falls in the wash cycle, 
+          and so on.
+       </div>
+
+       <div class = "blog-question text-left">* Describe what the DOM is and an example of how you might interact with it.</div>
+
+
+      <div class="inline-blog-body text-left">The Document Object Model (DOM) is and application programming interface for HTML documents. It 
+        allows programs and scripts to dynamically access and update the contents, struture and styles of a document(eg. The webpage/html
+         document). As you would know from the first section of this blog, HTML are plained datas and CSS is the style settings , those are 
+         static scripts. Imagine that you have set the hover style in CSS, how is it gonna show on the browser? How would it know the mouse is
+          on the hyper link? How would it know you have click on the link and is time to bring you to the linked page?  DOM will do the job! 
+          DOM enables scripts to access document elements and manipulate the datas. It acts like a glue that ties HTML, CSS , and java scripts 
+          together. 
+    </div>
+
+    <div class="inline-blog-body text-left">DOM is a hierarchical model as shown below:
+    </div>
+
+     <div class="inline-blog-body"> 
+        <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/DOMtree.jpg" alt="DOM-tree-img!">
+     </div>
+
+     <div class="inline-blog-body text-left"><p>Every HTML element within the document is an object in the eyes of the DOM (eg. &lthead&gt,&ltbody&gt,
+       &ltdiv&gt etc.) DOM basically describes how the objects are laid out in a tree fashion and each object is called the node. JavaScript
+          works with the objects, it can call methods on document objects thru DOM and interact with them, below is an example of getting
+          objects from DOM: </p>
+
+          <p class="css-codes">Document.getElementByTagName(title) </p>
+        
+        <p>This gets the information from the &lttitle&gt tag of the HTML element.</p>
+    </div>
+    <div class = "blog-question text-left">* Explain the difference between accessing data from arrays and objects. </div>
+
+    <div class="inline-blog-body text-left"> <p>Data in arrays is referenced by its position while data in an object is referenced by its
+       defined-properties.</p>
+       <div class="inline-blog-body array-img"> 
+          <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/Array.png" alt="Array-img!">
+       </div>
+       <p>As showing in the picture above, the data stored in an array is call element, each element has a refrenced position in regard to the array
+          length. To access the data within an array, we could use the bracket notation “[ ]” to specify the position of the data. For example 
+          <span class = "css-codes">arrayName[3]</span>, this calls the 4th element inside the array. Note that numbering begins with 0 in programming world, therefore arrayName [n]
+           calls the n+1 th element in that array.</p>
+
+           <div class="inline-blog-body array-img"> 
+              <img class="mx-auto d-block img-fluid inline-blog-img" src="../images/object-representation.png" alt="java-object-img!">
+           </div>
+           <p>Unlike array, data stored in an object is not refrenced by position. When we create an object, we assign a name to each data set
+          and it is called the property. We use properties to reference data within an object. For example, see the picture above, the names
+          stored in JSobject are the properties, each of the property refers to a set of data. We can use <span class = "css-codes">JSobject[Extra Properties]</span>
+          to access the array which contains property “c” and “d”. Or we can use <span class = "css-codes">JSobject.Elements</span> 
+          to access the array which contains property “0”, “1” & “2”. Generally we use bracket notation “[ ]” to access property has space
+          in its name. And dot notation “.” is use for normal cases. However there are other situations that bracket notation is required.
+          Further information please refer to <a href = "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables" >freeCodeCamp.</a></p>
+    </div>
+
+     <div class = "blog-question text-left">* Explain what functions are and why they are useful.</div>
+     <div class="inline-blog-body text-left"><p>Function or a method is a piece of code which performs some operations and optionally returns a value.
+        Functions are useful to break the codes up into smaller bits, so that it is more organised. Also, functions are reusable, it can be call
+         whenever you want without rewrite the code over and over again.  </p>
+     </div>
+
+
+
       </div>
+      <div class="col-2"> </div>
+            
+    </div>
+
      
   
     
