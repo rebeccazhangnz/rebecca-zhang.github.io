@@ -1,38 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-
-        <meta charset="utf-8">
-        <meta name="viewport"  content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/styles/main.css">
-        <link rel="stylesheet" href="../css/styles/normalize.css">
-        <link rel="stylesheet" href="../css/bootstrap.css">
-        <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
-        <title>Rebecca's Blog</title>
-        
-  </head>
-  
-  <body>
-    <div class="container-fluid">
-      <div class="row index-heading">
-        <div class="col-12 text-center">
-          <h1 class="index-heading">REBECCA'S WEB DEVELOPMENT LEARNING JOURNAL</h1>
-        </div>
-      </div>
-      <div class="row text-center navigation-bars">
-            <div class="col-3"><a href="../index.html">Home</a></div>
-            <div class="col-3"><a href="../blog/technical-blogs.html">Technical Blog</a></div>
-            <div class="col-3"><a href="../blog/cultural-blogs.html">Cultural Blog</a></div>
-            <div class="col-3"><a href="../blog/about-me.html">About Me</a></div>
-      </div>
-      <div class="row-fluid">
-            <div class="col-12 index-image">
-              <img class="mx-auto d-block img-fluid" src="../images/landing-img.jpg" alt="index heading image!">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport"  content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/styles/main.css">
+      <link rel="stylesheet" href="../css/styles/normalize.css">
+      <link rel="stylesheet" href="../css/bootstrap.css">
+      <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
+      <title>Rebecca's Blog</title>
+</head>
+<body class = sprint2-tech-blog-page>
+      <div class="container-fluid">
+          <div class="row index-heading">
+            <div class="col-12 text-center">
+                <h1 class="index-heading">REBECCA'S WEB DEVELOPMENT LEARNING JOURNAL</h1>
             </div>
+          </div>
+          <div class="row text-center navigation-bars">
+              <div class="col-3"><a href="../index.html">Home</a></div>
+              <div class="col-3"><a href="../blog/technical-blogs.html">Technical Blog</a></div>
+              <div class="col-3"><a href="../blog/cultural-blogs.html">Cultural Blog</a></div>
+              <div class="col-3"><a href="../blog/about-me.html">About Me</a></div>
+          </div>
+
+          <div class="row">
+              <div class="col-2"></div>
+              <div class="col-8 text-center">
+                  <H1 id="inline-blog-title"> Code Readability and Problem Solving Techniques</H1>
+                  <div class = "blog-question text-left">* Code Readability</div>
+                  <P class ="text-center tech-quotes">“Clean code is a code that is written by someone who cares”</P>
+                  <P class ="text-right tech-quotes">--quote from Michael Feathers</p>
+
+              <section class="inline-blog-body text-left">
+              <ul> 
+                  <li>
+                    Well naming each element, object and function, A good name should be short and clear
+                    and describes the purpose of the code. So that we do not need to provide unnecessary comments in the script to the explain 
+                    the codes.
+                  </li>
+                  <li>
+                    Indentation/formatting your code where necessary. Indentation has no bearing on how the page is rendered, but it has a 
+                    huge effect on the readability of the code. It makes the tree structure more clear and it would help people to breakdown
+                    the codes into sections and maintaining things become easier.  Standard procedure is to indent one tab (or a few spaces)
+                    when you are starting a new element that is a child element of the tag above it. Then move back in a tab when you are 
+                    closing that element. 
+                  </li>
+                  <li>
+                    Having consistency in how you name things and how you format your code reduces confusion when others read it.  For example,
+                    if you have a class for your index navigation bar call “nav-bar”, and you are having another class for your blog page’s
+                    navigation bar. You should not use “navBar” as another class name, because it would be confused for people to understand
+                    the difference between the two. Instead, you should make the code more consistent by using the same naming method (dash
+                    in between words). Eg. nav-bar-blog.
+                  </li>
+                  <li>
+                      Commenting a complicated section. If the code or the function in your script is long and complicated, it is good to
+                      have comments to explained the purpose of that section. This helps people to get some ideas before reading your code.
+                  </li>
+              </ul>
+              <div class = "blog-question text-left">* Tell your non-tech friend a story about a time</div>
+              <div class = "blog-sub-question text-left">1. Got blocked on a simple problem</div>
+                  <p>
+                      When I first finished the basic JavaScript Course, I was trying to find some online coding challenges to practice the knowledge
+                      I had learned. The first challenge I came across was to write a function that will return the factorial of a given number 
+                      (eg. Given 3, return the result of 1*2*3). I know it sounds pretty simple and straight forward, but guess what? At that time, 
+                      I did not even know how to start, I was frightened. I understood the requiements, I knew how to set conditions and loops, but 
+                      how could I put the knowledges together to get the results? I was stucked. 
+                  </p>
+                  <p>
+                      I decided to refer back to the jscourse on freeCodeCamp, I found out that there was a technique called pseudocode. That technique
+                      helps people to brief the ideas before writing the code. The concept of pseudocode is like making a meal for your family. Writing
+                      down a menu first would help you decide the ingredients and the steps you need to follow.Pseudocode is the menu of the code script.
+                      After I wrote the pseudocode for the factorial challenge, the idea became clear in my brain, then it took me only 2 minutes to 
+                      write the functions according to the pseudocode. 
+                  </p>
+                  
+                  <div class = "blog-sub-question text-left">2. Solved a problem in an elegant way</div>
+                  <p>
+                      I remembered when I first created my blog page I was very struggle with the positioning of the elements. When I tried to make one
+                      block of content to be float, the position of other blocks changed as well.  It was a mess seeing all the texts and images stacked
+                      on top of each other. Then I did some research on google and found out the rules of  float properties. Basically we can imagine 
+                      that if an element is defined as float, it is not on the same layer to the other elements, and that’s why the other elements will
+                      shift to take over the empty space. To resolve the issue, we can simply tell the other elements to ignore the float effect by 
+                      using “clear” property.
+                  </p>
+                  <p>
+                      There are many rules that affect the layout of the webpage, we will not be able to understand all of them. When we get stucked,
+                      google is a good way to search for answers.
+                  </p>
+
+                  <div class = "blog-question text-left">* Reflect on how confident you feel using the problem solving techniques and process:</div>
+                  <ul> 
+                      <li>
+                          <span>Pseudocode</span> : High – Pseudocode is a very useful technicque for me to conceptualise my code, it breaks down the problem into
+                           pieces then I can solve it step by step.
+                      </li>
+                      <li>
+                          <span> Trying something</span> : High – Trying things out might not solve the problem straight away, but it gives me the ideas what ways 
+                          are not working, and hence I can find another way to approach the problem.
+                      </li>
+                      <li>
+                          <span> Rubber ducky method</span> : Medium – I might not speak out lound to an object, but I will sometimes repeat and review the
+                           problem/steps in my mind.
+                      </li>
+                      <li>
+                          <span> Reading error messages</span> : High – I like to read error messages, as most of the time it points out the problem straight
+                           away, or it points to the sections the problem locates. Debugging codes without any error message is a real challenge to me.
+                      </li>
+                      <li>
+                          <span> Console.logging </span> : Medium – Sometimes I am not quite sure where should I put the console.log to check the output.  
+                      </li>
+                      <li>
+                          <span> Googling</span> : High - The major problem solving skill that I use in my daily tasks.
+                      </li>
+                      <li>
+                          <span> Googling</span> : Medium – This sometimes would be a challenge as people might have different logic or approach on writing
+                           codes. It was a bit hard to explain things when people have different logic,  and the process is time consuming. 
+                      </li>
+                      <li>
+                          <span> Asking coaches for help</span> : Medium – This would be my final solution if I could not solve the problem by myself, 
+                          because in a working environment, there might not be a coach out there to help me.
+                      </li>
+                      <li>
+                          <span> Improving your process with reflection</span> : Medium – Still working on this part.
+                      </li>
+                  </ul>
+              </section>
+              </div>
+              <div class="col-2"> </div>
+          </div>
       </div>
-     
-  
-    
-  
-  </body>
+</body>
 </html>

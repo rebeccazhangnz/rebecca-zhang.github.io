@@ -103,6 +103,7 @@ margin-bottom: 60px;}
     color: rgb(96, 185, 185);
     font-size: 20px;
     margin-bottom: 60px;
+    font-weight:300;
 }
 
 .css-codes
@@ -130,13 +131,20 @@ margin-bottom: 60px;}
 .blog-question{
     color: rgb(76, 0, 255);
     text-decoration: underline;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-weight: 600;
     font-size:25px;
 }
 
-
+.blog-sub-question{
+    color: rgb(78, 99, 155);
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size:20px; 
+}
 .control-flow-table{
     width: 80%;
     margin-top: 50px;
@@ -163,4 +171,17 @@ margin-bottom: 60px;}
 .control-flow-function-rinse {color:blueviolet; font-size: 16px;font-weight: 400;}
 .control-flow-function-spin  {color:blue; font-size: 16px;font-weight: 400;}
 
+.tech-quotes{
+    font-size: 20px;
+    color: orange;
+    font-style: italic;
+}
 
+.inline-blog-body ul li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inline-blog-body ul li span{
+    color: greenyellow;
+}
